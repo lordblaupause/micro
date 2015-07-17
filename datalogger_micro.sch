@@ -11996,6 +11996,53 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-3.7" y="-7.5" size="1.4224" layer="21">CR2450 /
 LIR2450</text>
 </package>
+<package name="CR2450V">
+<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
+<wire x1="3.556" y1="-1.905" x2="3.556" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="1.905" x2="4.191" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-1.905" x2="4.191" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-6.858" x2="-2.54" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="6.858" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-6.858" x2="-2.54" y2="-6.858" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-6.858" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-3.175" x2="-1.905" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="3.175" x2="-1.905" y2="6.858" width="0.1524" layer="51"/>
+<wire x1="3.556" y1="-1.905" x2="3.556" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="4.191" y1="-1.905" x2="3.556" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="1.905" x2="3.556" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-1.905" x2="4.191" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.905" x2="3.556" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="6.858" x2="-2.54" y2="6.858" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-3.175" x2="-2.54" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="-4.191" y1="0" x2="-2.921" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="4.826" y1="-2.413" x2="4.826" y2="-3.683" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-11.684" x2="-1.27" y2="-12.319" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.905" y1="11.684" x2="-1.27" y2="12.319" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-12.319" x2="2.286" y2="-12.319" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="12.319" x2="2.286" y2="12.319" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-12.319" x2="2.921" y2="-11.684" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="12.319" x2="2.921" y2="11.684" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.921" y1="-11.176" x2="3.556" y2="-10.541" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="11.303" x2="3.556" y2="10.668" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.921" y1="-11.684" x2="2.921" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.921" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="2.921" y1="1.143" x2="2.921" y2="11.684" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-4.445" x2="3.556" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-4.445" x2="3.556" y2="-10.541" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="4.445" x2="3.556" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="4.445" x2="3.556" y2="10.668" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-11.684" x2="-1.905" y2="-6.858" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="6.858" x2="-1.905" y2="11.684" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="-5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
+<pad name="+@1" x="-2.54" y="5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
+<pad name="-" x="4.191" y="0" drill="1.3208" diameter="3.1496" shape="octagon"/>
+<text x="5.969" y="2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="1.27" y="4.064" size="1.27" layer="21" ratio="10" rot="R90">Lith.3V</text>
+<text x="1.27" y="-11.176" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1V2+2">
@@ -12023,6 +12070,24 @@ LIR2450</text>
 <connect gate="G$1" pin="+" pad="P$3"/>
 <connect gate="G$1" pin="+@1" pad="P$1"/>
 <connect gate="G$1" pin="-" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CR2450V" prefix="G">
+<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
+<gates>
+<gate name="1" symbol="1V2+2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CR2450V">
+<connects>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="+@1" pad="+@1"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12119,6 +12184,9 @@ LIR2450</text>
 <part name="VCC-BAT7" library="supply1" deviceset="VCC/2" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$3" library="battery" deviceset="CR2450SMT" device=""/>
+<part name="G1" library="battery" deviceset="CR2450V" device=""/>
+<part name="VCC-BAT8" library="supply1" deviceset="VCC/2" device=""/>
+<part name="GND19" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12310,13 +12378,18 @@ bei IO auf low bleiben.</text>
 <instance part="VCC-BAT6" gate="G$1" x="10.16" y="144.78" smashed="yes">
 <attribute name="VALUE" x="20.32" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="VCC-BAT7" gate="G$1" x="48.26" y="149.86" smashed="yes">
-<attribute name="VALUE" x="58.42" y="149.86" size="1.778" layer="96" rot="R180"/>
+<instance part="VCC-BAT7" gate="G$1" x="81.28" y="149.86" smashed="yes">
+<attribute name="VALUE" x="91.44" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND18" gate="1" x="48.26" y="129.54"/>
-<instance part="U$3" gate="G$1" x="48.26" y="139.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="53.34" y="132.08" size="1.778" layer="96" rot="R90"/>
+<instance part="GND18" gate="1" x="81.28" y="129.54"/>
+<instance part="U$3" gate="G$1" x="81.28" y="139.7" smashed="yes" rot="R90">
+<attribute name="VALUE" x="86.36" y="132.08" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="G1" gate="1" x="96.52" y="139.7" rot="R90"/>
+<instance part="VCC-BAT8" gate="G$1" x="96.52" y="149.86" smashed="yes">
+<attribute name="VALUE" x="106.68" y="149.86" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND19" gate="1" x="96.52" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -12468,8 +12541,13 @@ bei IO auf low bleiben.</text>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="48.26" y1="132.08" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="132.08" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="-"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="G1" gate="1" pin="-"/>
+<wire x1="96.52" y1="132.08" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -13053,8 +13131,13 @@ bei IO auf low bleiben.</text>
 </segment>
 <segment>
 <pinref part="VCC-BAT7" gate="G$1" pin="VCC/2"/>
-<wire x1="48.26" y1="144.78" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="144.78" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="+"/>
+</segment>
+<segment>
+<pinref part="G1" gate="1" pin="+"/>
+<pinref part="VCC-BAT8" gate="G$1" pin="VCC/2"/>
+<wire x1="96.52" y1="144.78" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">

@@ -1826,6 +1826,53 @@ grid 2.54 mm, diameter 5 mm</description>
 <text x="-3.7" y="-7.5" size="1.4224" layer="21">CR2450 /
 LIR2450</text>
 </package>
+<package name="CR2450V">
+<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
+<wire x1="3.556" y1="-1.905" x2="3.556" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="1.905" x2="4.191" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-1.905" x2="4.191" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-6.858" x2="-2.54" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="6.858" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-6.858" x2="-2.54" y2="-6.858" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-6.858" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-3.175" x2="-1.905" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="3.175" x2="-1.905" y2="6.858" width="0.1524" layer="51"/>
+<wire x1="3.556" y1="-1.905" x2="3.556" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="4.191" y1="-1.905" x2="3.556" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="1.905" x2="3.556" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-1.905" x2="4.191" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.905" x2="3.556" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="6.858" x2="-2.54" y2="6.858" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-3.175" x2="-2.54" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="-4.191" y1="0" x2="-2.921" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="4.826" y1="-2.413" x2="4.826" y2="-3.683" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-11.684" x2="-1.27" y2="-12.319" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.905" y1="11.684" x2="-1.27" y2="12.319" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-12.319" x2="2.286" y2="-12.319" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="12.319" x2="2.286" y2="12.319" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-12.319" x2="2.921" y2="-11.684" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="12.319" x2="2.921" y2="11.684" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.921" y1="-11.176" x2="3.556" y2="-10.541" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="11.303" x2="3.556" y2="10.668" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.921" y1="-11.684" x2="2.921" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.921" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="2.921" y1="1.143" x2="2.921" y2="11.684" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-4.445" x2="3.556" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-4.445" x2="3.556" y2="-10.541" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="4.445" x2="3.556" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="4.445" x2="3.556" y2="10.668" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-11.684" x2="-1.905" y2="-6.858" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="6.858" x2="-1.905" y2="11.684" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="-5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
+<pad name="+@1" x="-2.54" y="5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
+<pad name="-" x="4.191" y="0" drill="1.3208" diameter="3.1496" shape="octagon"/>
+<text x="5.969" y="2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="1.27" y="4.064" size="1.27" layer="21" ratio="10" rot="R90">Lith.3V</text>
+<text x="1.27" y="-11.176" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -2117,6 +2164,7 @@ design rules under a new name.</description>
 </element>
 <element name="R13" library="SparkFun" package="0603-RES" value="VAR" x="25.4" y="27.051" rot="MR270"/>
 <element name="U$3" library="battery" package="CR2450SMT" value="CR2450SMT" x="46.99" y="19.05" rot="R90"/>
+<element name="G1" library="battery" package="CR2450V" value="CR2450V" x="66.04" y="17.78"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -2273,7 +2321,9 @@ design rules under a new name.</description>
 <via x="15.24" y="4.09575" extent="1-16" drill="0.381"/>
 <via x="15.33525" y="13.04925" extent="1-16" drill="0.381"/>
 <contactref element="U$3" pad="P$2"/>
-<wire x1="13.227" y1="2.159" x2="46.99" y2="1.95" width="0" layer="19" extent="1-1"/>
+<contactref element="G1" pad="-"/>
+<wire x1="26.76525" y1="17.907" x2="46.99" y2="1.95" width="0" layer="19" extent="1-1"/>
+<wire x1="70.231" y1="17.78" x2="1.23825" y2="24.1935" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="R2" pad="1"/>
@@ -3033,7 +3083,9 @@ design rules under a new name.</description>
 <via x="3.33375" y="32.28975" extent="1-16" drill="0.381"/>
 <via x="1.524" y="16.47825" extent="1-16" drill="0.381"/>
 <contactref element="U$3" pad="P$3"/>
-<wire x1="9.04875" y1="10.0965" x2="46.99" y2="36.15" width="0" layer="19" extent="1-1"/>
+<contactref element="G1" pad="+"/>
+<wire x1="31.75" y1="34.29" x2="46.99" y2="36.15" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="12.7" x2="0.85725" y2="17.145" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="C6" pad="1"/>
