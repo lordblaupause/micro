@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : U:/repos/datalogger/micro/datalogger_micro.brd
+Job           : C:/Users/Mirko/SkyDrive/Datenlogger/Micro/micro/datalogger_micro.brd
 
-Start at      : 08:23:53 (17.07.2015)
-End at        : 08:25:01 (17.07.2015)
-Elapsed time  : 00:01:04
+Start at      : 08:57:09 (18.07.2015)
+End at        : 08:57:55 (18.07.2015)
+Elapsed time  : 
 
 Signals       :    37   RoutingGrid: 3.75 mil  Layers: 2
-Connections   :   114   predefined:  0 ( 0 Vias )
+Connections   :   116   predefined:  0 ( 0 Vias )
 
-Router memory :   3271720
+Router memory :   4032288
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:08  00:00:33  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:01
-Number of Ripups  :         0       137         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         2         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        38         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :                            
+Number of Ripups  :         0       200         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         3         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0        43         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        29       114       114       114       114       114       114       114       114       114       114       114       114       114
-Vias              :         0        71        71        66        61        57        54        54        54        53        53        53        53        53
-Resolution        :    25.4 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        34       115       115       115       116       116       116       116       116       116       116       116       116       116
+Vias              :         0        74        68        65        70        66        64        64        62        59        59        59        59        59
+Resolution        :    29.3 %    99.1 %    99.1 %    99.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% beendet

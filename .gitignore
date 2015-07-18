@@ -45,3 +45,4 @@ Temporary Items
 # remove temprary eagle files
 *.b#*
 *.s#*
+*.job

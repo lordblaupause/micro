@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12544,11 +12544,6 @@ bei IO auf low bleiben.</text>
 <wire x1="81.28" y1="132.08" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="-"/>
 </segment>
-<segment>
-<pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="G1" gate="1" pin="-"/>
-<wire x1="96.52" y1="132.08" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -13133,11 +13128,6 @@ bei IO auf low bleiben.</text>
 <pinref part="VCC-BAT7" gate="G$1" pin="VCC/2"/>
 <wire x1="81.28" y1="144.78" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="+"/>
-</segment>
-<segment>
-<pinref part="G1" gate="1" pin="+"/>
-<pinref part="VCC-BAT8" gate="G$1" pin="VCC/2"/>
-<wire x1="96.52" y1="144.78" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
