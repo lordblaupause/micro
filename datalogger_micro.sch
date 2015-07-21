@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4433,7 +4433,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="R18" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="1206" value="10uF"/>
 <part name="POWER" library="SparkFun" deviceset="M02" device="PTH"/>
-<part name="SPI" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="2X3_LOCK" value="SPI"/>
+<part name="SPI" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -4775,9 +4775,9 @@ Sensor 2 on A1</text>
 <wire x1="17.78" y1="162.56" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="6"/>
 <wire x1="78.74" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
 <label x="81.28" y="101.6" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -4794,9 +4794,9 @@ Sensor 2 on A1</text>
 <pinref part="ATMEGA328P" gate="G$1" pin="PC6(/RESET)"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="5"/>
 <wire x1="55.88" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 <label x="45.72" y="101.6" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -4827,9 +4827,9 @@ Sensor 2 on A1</text>
 <pinref part="U$2" gate="SST25VF032B" pin="SO"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <label x="48.26" y="106.68" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
