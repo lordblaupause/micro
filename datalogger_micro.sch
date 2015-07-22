@@ -5032,6 +5032,14 @@ Sensor 2 on A1</text>
 <pinref part="ATMEGA328P" gate="G$1" pin="PC0(ADC0)"/>
 <label x="45.72" y="60.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="Q2" gate="G$1" pin="E"/>
+<wire x1="50.8" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="71.12" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<junction x="45.72" y="71.12"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="D2" class="0">
 <segment>
@@ -5174,16 +5182,6 @@ Sensor 2 on A1</text>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND14" gate="1" pin="GNDA"/>
 <wire x1="66.04" y1="147.32" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PC0" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="E"/>
-<wire x1="50.8" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="71.12" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
-<junction x="45.72" y="71.12"/>
-<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
