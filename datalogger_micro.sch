@@ -4478,16 +4478,16 @@ Sensor 2 on A1</text>
 <wire x1="71.12" y1="43.18" x2="71.12" y2="5.08" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="12.7" y1="43.18" x2="71.12" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="12.7" y1="5.08" x2="71.12" y2="5.08" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="83.82" x2="111.76" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="111.76" y1="48.26" x2="111.76" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="48.26" x2="111.76" y2="48.26" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="83.82" x2="76.2" y2="48.26" width="0.2032" layer="97" style="shortdash"/>
-<text x="78.232" y="80.01" size="2.1844" layer="97">Voltage Divider A2</text>
-<wire x1="76.2" y1="43.18" x2="111.76" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="111.76" y1="7.62" x2="111.76" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="7.62" x2="111.76" y2="7.62" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="43.18" x2="76.2" y2="7.62" width="0.2032" layer="97" style="shortdash"/>
-<text x="78.232" y="39.37" size="2.1844" layer="97">Voltage Divider A2</text>
+<wire x1="73.66" y1="43.18" x2="109.22" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="109.22" y1="5.08" x2="109.22" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="73.66" y1="5.08" x2="109.22" y2="5.08" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="73.66" y1="43.18" x2="73.66" y2="5.08" width="0.2032" layer="97" style="shortdash"/>
+<text x="75.692" y="39.37" size="2.1844" layer="97">Voltage Divider A2</text>
+<wire x1="73.66" y1="83.82" x2="109.22" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="109.22" y1="45.72" x2="109.22" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="73.66" y1="45.72" x2="109.22" y2="45.72" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="73.66" y1="83.82" x2="73.66" y2="45.72" width="0.2032" layer="97" style="shortdash"/>
+<text x="75.692" y="80.01" size="2.1844" layer="97">Voltage Divider A2</text>
 <text x="203.2" y="53.34" size="1.778" layer="91">2.7 - 3.6V</text>
 <wire x1="15.24" y1="86.36" x2="91.44" y2="86.36" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="15.24" y1="124.46" x2="91.44" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
@@ -4566,18 +4566,18 @@ Sensor 2 on A1</text>
 <instance part="R10" gate="G$1" x="55.88" y="30.48"/>
 <instance part="GND10" gate="1" x="66.04" y="25.4" rot="MR0"/>
 <instance part="M1" gate="G$1" x="27.94" y="10.16" rot="R90"/>
-<instance part="VD2" gate="G$1" x="96.52" y="53.34" rot="R90"/>
-<instance part="VCC-BAT4" gate="G$1" x="106.68" y="76.2" smashed="yes">
-<attribute name="VALUE" x="108.458" y="78.232" size="1.778" layer="96" rot="R270"/>
+<instance part="VD2" gate="G$1" x="93.98" y="12.7" rot="R90"/>
+<instance part="VCC-BAT4" gate="G$1" x="104.14" y="35.56" smashed="yes">
+<attribute name="VALUE" x="105.918" y="37.592" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R12" gate="G$1" x="88.9" y="68.58"/>
-<instance part="GND16" gate="1" x="83.82" y="60.96" rot="MR0"/>
-<instance part="VD3" gate="G$1" x="96.52" y="12.7" rot="R90"/>
-<instance part="VCC-BAT5" gate="G$1" x="106.68" y="35.56" smashed="yes">
-<attribute name="VALUE" x="108.458" y="37.084" size="1.778" layer="96" rot="R270"/>
+<instance part="R12" gate="G$1" x="86.36" y="27.94"/>
+<instance part="GND16" gate="1" x="81.28" y="20.32" rot="MR0"/>
+<instance part="VD3" gate="G$1" x="93.98" y="53.34" rot="R90"/>
+<instance part="VCC-BAT5" gate="G$1" x="104.14" y="76.2" smashed="yes">
+<attribute name="VALUE" x="105.918" y="77.724" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R13" gate="G$1" x="88.9" y="27.94"/>
-<instance part="GND17" gate="1" x="83.82" y="20.32" rot="MR0"/>
+<instance part="R13" gate="G$1" x="86.36" y="68.58"/>
+<instance part="GND17" gate="1" x="81.28" y="60.96" rot="MR0"/>
 <instance part="GND18" gate="1" x="17.78" y="157.48"/>
 <instance part="C7" gate="G$1" x="175.26" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.276" y="58.547" size="1.778" layer="95"/>
@@ -4596,8 +4596,8 @@ Sensor 2 on A1</text>
 <instance part="GND22" gate="1" x="132.08" y="132.08"/>
 <instance part="VCC-BAT6" gate="G$1" x="223.52" y="165.1" smashed="yes"/>
 <instance part="VCC-BAT9" gate="G$1" x="231.14" y="165.1" smashed="yes"/>
-<instance part="R14" gate="G$1" x="101.6" y="68.58"/>
-<instance part="R15" gate="G$1" x="101.6" y="27.94"/>
+<instance part="R14" gate="G$1" x="99.06" y="27.94"/>
+<instance part="R15" gate="G$1" x="99.06" y="68.58"/>
 <instance part="Q4" gate="G$1" x="50.8" y="157.48"/>
 <instance part="VCC-BAT10" gate="G$1" x="127" y="170.18" smashed="yes" rot="R90"/>
 <instance part="R16" gate="G$1" x="139.7" y="170.18"/>
@@ -4739,12 +4739,12 @@ Sensor 2 on A1</text>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="68.58" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="27.94" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="27.94" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="68.58" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -4773,6 +4773,7 @@ Sensor 2 on A1</text>
 <wire x1="10.16" y1="157.48" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="162.56" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
+<junction x="17.78" y="162.56"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
@@ -4825,6 +4826,7 @@ Sensor 2 on A1</text>
 <segment>
 <wire x1="195.58" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="SST25VF032B" pin="SO"/>
+<label x="193.04" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="58.42" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
@@ -4928,14 +4930,23 @@ Sensor 2 on A1</text>
 <label x="15.24" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D9" class="0">
+<net name="VCC/ST_ON" class="0">
 <segment>
 <wire x1="195.58" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
 <label x="198.12" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="ATMEGA328P" gate="G$1" pin="PB1(OC1A)"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="45.72" y1="157.48" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+<junction x="45.72" y="160.02"/>
+<label x="43.18" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="D8" class="0">
+<net name="RTC_INT" class="0">
 <segment>
 <wire x1="195.58" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
 <label x="198.12" y="109.22" size="1.27" layer="95" xref="yes"/>
@@ -4975,63 +4986,24 @@ Sensor 2 on A1</text>
 <pinref part="IC1" gate="G$1" pin="SDA"/>
 </segment>
 </net>
-<net name="A3" class="0">
-<segment>
-<wire x1="195.58" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
-<label x="198.12" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PC3(ADC3)"/>
-<label x="93.98" y="33.02" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
+<net name="VDIV1" class="0">
 <segment>
 <pinref part="VD3" gate="G$1" pin="2"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="20.32" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="27.94" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<junction x="93.98" y="27.94"/>
+<wire x1="91.44" y1="60.96" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="68.58" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<junction x="91.44" y="68.58"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="A2" class="0">
-<segment>
-<label x="198.12" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PC2(ADC2)"/>
-<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
-<label x="93.98" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="93.98" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<label x="91.44" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="VD2" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="60.96" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="68.58" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<junction x="93.98" y="68.58"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="A1" class="0">
-<segment>
-<wire x1="195.58" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
-<label x="198.12" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PC1(ADC1)"/>
-<label x="45.72" y="20.32" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="Q3" gate="G$1" pin="E"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="30.48" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
-<junction x="45.72" y="30.48"/>
-</segment>
-</net>
-<net name="A0" class="0">
-<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="195.58" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 <label x="198.12" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PC0(ADC0)"/>
-<label x="45.72" y="60.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+</net>
+<net name="SOIL1" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <wire x1="50.8" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
@@ -5039,65 +5011,27 @@ Sensor 2 on A1</text>
 <wire x1="45.72" y1="71.12" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <junction x="45.72" y="71.12"/>
 <pinref part="R5" gate="G$1" pin="1"/>
+<label x="45.72" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="ADC7"/>
+<wire x1="195.58" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
+<label x="198.12" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D2" class="0">
-<segment>
-<wire x1="195.58" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
-<label x="198.12" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PD2(INT0)"/>
-<wire x1="195.58" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
-<label x="124.46" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
+<net name="RTC_RST" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="/RST"/>
 <wire x1="134.62" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
 <label x="132.08" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="D3" class="0">
 <segment>
-<wire x1="195.58" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="198.12" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PD3(INT1)"/>
+<pinref part="ATMEGA328P" gate="G$1" pin="PC1(ADC1)"/>
+<wire x1="195.58" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
+<label x="198.12" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D4" class="0">
-<segment>
-<wire x1="195.58" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
-<label x="198.12" y="121.92" size="1.27" layer="95" xref="yes"/>
-<label x="213.36" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PD4(XCK/T0)"/>
-</segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D5" class="0">
-<segment>
-<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
-<label x="198.12" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PD5(T1)"/>
-<label x="40.64" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="40.64" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="160.02" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<junction x="45.72" y="160.02"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-</segment>
-</net>
-<net name="D6" class="0">
-<segment>
-<wire x1="195.58" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
-<label x="198.12" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="ATMEGA328P" gate="G$1" pin="PD6(AIN0)"/>
-</segment>
-</net>
-<net name="D7" class="0">
+<net name="RTC_VCC" class="0">
 <segment>
 <wire x1="195.58" y1="114.3" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
 <label x="198.12" y="114.3" size="1.27" layer="95" xref="yes"/>
@@ -5109,7 +5043,7 @@ Sensor 2 on A1</text>
 <label x="132.08" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D10" class="0">
+<net name="FLASH_CE" class="0">
 <segment>
 <wire x1="195.58" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
 <label x="198.12" y="104.14" size="1.27" layer="95" xref="yes"/>
@@ -5123,6 +5057,7 @@ Sensor 2 on A1</text>
 <junction x="193.04" y="66.04"/>
 <wire x1="193.04" y1="73.66" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<label x="190.5" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -5254,23 +5189,23 @@ Sensor 2 on A1</text>
 </segment>
 <segment>
 <pinref part="VD2" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="60.96" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="20.32" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="VCC-BAT4" gate="G$1" pin="VCC/2"/>
-<wire x1="106.68" y1="63.5" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="22.86" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="68.58" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<junction x="106.68" y="68.58"/>
+<wire x1="104.14" y1="27.94" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
+<junction x="104.14" y="27.94"/>
 </segment>
 <segment>
 <pinref part="VD3" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="20.32" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="VCC-BAT5" gate="G$1" pin="VCC/2"/>
-<wire x1="106.68" y1="22.86" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="63.5" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="27.94" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
-<junction x="106.68" y="27.94"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<junction x="104.14" y="68.58"/>
 </segment>
 <segment>
 <pinref part="ATMEGA328P" gate="G$1" pin="AVCC"/>
@@ -5284,7 +5219,6 @@ Sensor 2 on A1</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="VCC-BAT6" gate="G$1" pin="VCC/2"/>
-<wire x1="223.52" y1="157.48" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
 <label x="220.98" y="157.48" size="1.778" layer="95" rot="R90"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
 </segment>
@@ -5348,6 +5282,65 @@ Sensor 2 on A1</text>
 <pinref part="IC3" gate="G$1" pin="ADJ"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
 <wire x1="53.34" y1="162.56" x2="53.34" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
+<label x="213.36" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="PD5(T1)"/>
+<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<label x="198.12" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SOIL2" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="E"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
+<junction x="45.72" y="30.48"/>
+<label x="45.72" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<label x="198.12" y="149.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VDIV2" class="0">
+<segment>
+<pinref part="VD2" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="20.32" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="27.94" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
+<junction x="91.44" y="27.94"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
+<label x="91.44" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="PC3(ADC3)"/>
+<wire x1="195.58" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="198.12" y="147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="INT0" class="0">
+<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="PD2(INT0)"/>
+<wire x1="195.58" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
+<label x="198.12" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="INT1" class="0">
+<segment>
+<pinref part="ATMEGA328P" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="195.58" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
+<label x="198.12" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
