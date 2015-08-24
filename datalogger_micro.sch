@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1856,11 +1856,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <device name="" package="SO-08">
 <connects>
 <connect gate="SST25VF032B" pin="CE#" pad="1"/>
-<connect gate="SST25VF032B" pin="HOLD#" pad="6"/>
-<connect gate="SST25VF032B" pin="SCK" pad="7"/>
-<connect gate="SST25VF032B" pin="SI" pad="8"/>
+<connect gate="SST25VF032B" pin="HOLD#" pad="7"/>
+<connect gate="SST25VF032B" pin="SCK" pad="6"/>
+<connect gate="SST25VF032B" pin="SI" pad="5"/>
 <connect gate="SST25VF032B" pin="SO" pad="2"/>
-<connect gate="SST25VF032B" pin="VDD" pad="5"/>
+<connect gate="SST25VF032B" pin="VDD" pad="8"/>
 <connect gate="SST25VF032B" pin="VSS" pad="4"/>
 <connect gate="SST25VF032B" pin="WP#" pad="3"/>
 </connects>
