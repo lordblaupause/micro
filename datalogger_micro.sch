@@ -4395,7 +4395,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="P+4" library="supply1" deviceset="VCC/2" device=""/>
 <part name="VCC-BAT1" library="supply1" deviceset="VCC/2" device=""/>
 <part name="VCC-BAT2" library="supply1" deviceset="VCC/2" device=""/>
-<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="32.768KHZ" library="crystal" deviceset="CRYSTAL" device="TC38H"/>
 <part name="Q1" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23"/>
@@ -4434,7 +4434,8 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="POWER" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="SPI" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
 <part name="Q2" library="transistor-power" deviceset="IRLML5203" device=""/>
-<part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4514,7 +4515,7 @@ Sensor 2 on A1</text>
 <attribute name="NAME" x="233.934" y="85.598" size="1.778" layer="95"/>
 <attribute name="VALUE" x="235.966" y="95.123" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND32" gate="1" x="45.72" y="162.56"/>
+<instance part="GND32" gate="1" x="45.72" y="152.4"/>
 <instance part="GND4" gate="1" x="142.24" y="121.92"/>
 <instance part="JP1" gate="G$1" x="27.94" y="106.68"/>
 <instance part="C2" gate="G$1" x="99.06" y="154.94" smashed="yes" rot="R270">
@@ -4556,8 +4557,8 @@ Sensor 2 on A1</text>
 </instance>
 <instance part="VCC-BAT1" gate="G$1" x="175.26" y="68.58" smashed="yes"/>
 <instance part="VCC-BAT2" gate="G$1" x="121.92" y="48.26" smashed="yes" rot="R90"/>
-<instance part="R12" gate="G$1" x="30.48" y="160.02" rot="R270"/>
-<instance part="GND15" gate="1" x="53.34" y="165.1"/>
+<instance part="R12" gate="G$1" x="30.48" y="162.56" rot="R270"/>
+<instance part="GND15" gate="1" x="53.34" y="152.4"/>
 <instance part="32.768KHZ" gate="G$1" x="144.78" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="140.462" y="140.97" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="142.24" y="132.08" size="1.778" layer="96" rot="R270"/>
@@ -4579,7 +4580,7 @@ Sensor 2 on A1</text>
 </instance>
 <instance part="R15" gate="G$1" x="86.36" y="68.58"/>
 <instance part="GND17" gate="1" x="81.28" y="60.96" rot="MR0"/>
-<instance part="GND18" gate="1" x="17.78" y="157.48"/>
+<instance part="GND18" gate="1" x="17.78" y="152.4"/>
 <instance part="C1" gate="G$1" x="175.26" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.276" y="58.547" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.276" y="54.229" size="1.778" layer="96"/>
@@ -4614,7 +4615,8 @@ Sensor 2 on A1</text>
 <instance part="POWER" gate="G$1" x="10.16" y="149.86" rot="R90"/>
 <instance part="SPI" gate="G$1" x="66.04" y="104.14"/>
 <instance part="Q2" gate="G$1" x="33.02" y="175.26" rot="R90"/>
-<instance part="R19" gate="G$1" x="25.4" y="172.72" rot="R270"/>
+<instance part="R19" gate="G$1" x="38.1" y="157.48" rot="R270"/>
+<instance part="GND1" gate="1" x="30.48" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -4638,7 +4640,7 @@ Sensor 2 on A1</text>
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="165.1" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="154.94" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
@@ -4726,7 +4728,7 @@ Sensor 2 on A1</text>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="53.34" y1="170.18" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="170.18" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="ADJ"/>
 </segment>
 <segment>
@@ -4770,13 +4772,18 @@ Sensor 2 on A1</text>
 <pinref part="POWER" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="157.48" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="162.56" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="162.56" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
 <junction x="17.78" y="162.56"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
 <label x="81.28" y="101.6" size="1.778" layer="95"/>
 <pinref part="SPI" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="154.94" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -4935,10 +4942,9 @@ Sensor 2 on A1</text>
 <pinref part="ATMEGA328P" gate="G$1" pin="PB1(OC1A)"/>
 </segment>
 <segment>
-<label x="35.56" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="152.4" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="152.4" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
+<label x="38.1" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="38.1" y1="144.78" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RTC_INT" class="0">
@@ -5175,11 +5181,8 @@ Sensor 2 on A1</text>
 <wire x1="7.62" y1="157.48" x2="7.62" y2="177.8" width="0.1524" layer="91"/>
 <junction x="7.62" y="177.8"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="20.32" y1="177.8" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="177.8" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
 <junction x="20.32" y="177.8"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<junction x="25.4" y="177.8"/>
-<wire x1="25.4" y1="177.8" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VD2" gate="G$1" pin="1"/>
@@ -5342,13 +5345,14 @@ Sensor 2 on A1</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="165.1" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="30.48" y1="167.64" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
-<junction x="30.48" y="167.64"/>
+<wire x1="30.48" y1="167.64" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="170.18" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="162.56" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<junction x="30.48" y="170.18"/>
 </segment>
 </net>
 </nets>
