@@ -4446,7 +4446,8 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="210.82" y1="137.668" x2="210.82" y2="177.8" width="0.2032" layer="97" style="shortdash"/>
 <text x="167.64" y="9.398" size="1.778" layer="94">Original Arduino Mini Design by Team Arduino</text>
 <text x="160.782" y="6.604" size="1.778" layer="94">Arduino Pro Mini Design by Spark Fun Electronics</text>
-<text x="212.598" y="172.72" size="1.778" layer="97">Optional Pullups for I2C lines</text>
+<text x="212.598" y="172.72" size="1.6764" layer="97">Optional Pullups for 
+I2C lines</text>
 <text x="240.284" y="7.366" size="1.778" layer="94">0.93</text>
 <wire x1="182.88" y1="83.82" x2="182.88" y2="48.26" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="238.76" y1="83.82" x2="182.88" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
@@ -4614,7 +4615,9 @@ Sensor 2 on A1</text>
 </instance>
 <instance part="POWER" gate="G$1" x="10.16" y="149.86" rot="R90"/>
 <instance part="SPI" gate="G$1" x="66.04" y="104.14"/>
-<instance part="Q2" gate="G$1" x="33.02" y="175.26" rot="R90"/>
+<instance part="Q2" gate="G$1" x="33.02" y="175.26" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.132" y="183.642" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R19" gate="G$1" x="38.1" y="157.48" rot="R270"/>
 <instance part="GND1" gate="1" x="30.48" y="152.4"/>
 </instances>
@@ -5090,6 +5093,7 @@ Sensor 2 on A1</text>
 <pinref part="ATMEGA328P" gate="G$1" pin="ADC6"/>
 <wire x1="195.58" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
 <label x="198.12" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="147.32" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -5098,7 +5102,6 @@ Sensor 2 on A1</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="170.18" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
 <junction x="147.32" y="170.18"/>
-<label x="147.32" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GNDA" class="0">
