@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1949,12 +1949,6 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <smd name="+$2" x="12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
 <text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-9" y="0" curve="-90"/>
-<vertex x="0" y="9" curve="-90"/>
-<vertex x="9" y="0" curve="-90"/>
-<vertex x="0" y="-9" curve="-90"/>
-</polygon>
 </package>
 <package name="CR2032-THRU">
 <wire x1="-11.176" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
@@ -4364,7 +4358,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="R16" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470"/>
 <part name="D1" library="Testing" deviceset="LED" device="" value="Green"/>
-<part name="GND32" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun" deviceset="ARDUINO_SERIAL_PROGRAM" device="PTH" value="FTDI Basic"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -4389,7 +4382,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100K"/>
 <part name="IC2" library="v-reg" deviceset="LD117A?*" device="S" technology="33TR"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="ATMEGA328P" library="atmel" deviceset="MEGA8" device="-AI"/>
 <part name="VCC-BAT" library="supply1" deviceset="VCC/2" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC/2" device=""/>
@@ -4513,7 +4505,6 @@ Sensor 2 on A1</text>
 <attribute name="NAME" x="233.934" y="85.598" size="1.778" layer="95"/>
 <attribute name="VALUE" x="235.966" y="95.123" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND32" gate="1" x="27.94" y="152.4"/>
 <instance part="GND4" gate="1" x="142.24" y="121.92"/>
 <instance part="JP1" gate="G$1" x="27.94" y="106.68"/>
 <instance part="C2" gate="G$1" x="99.06" y="154.94" smashed="yes" rot="R270">
@@ -4544,10 +4535,6 @@ Sensor 2 on A1</text>
 <attribute name="VALUE" x="50.038" y="181.61" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="142.24" y="149.86" rot="R270"/>
-<instance part="C6" gate="G$1" x="27.94" y="170.18" smashed="yes">
-<attribute name="NAME" x="30.607" y="171.704" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="23.241" y="174.244" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="ATMEGA328P" gate="G$1" x="170.18" y="129.54"/>
 <instance part="VCC-BAT" gate="G$1" x="5.08" y="177.8" smashed="yes" rot="R90"/>
 <instance part="P+4" gate="G$1" x="137.16" y="116.84" smashed="yes" rot="R90">
@@ -4629,11 +4616,6 @@ Sensor 2 on A1</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="144.78" y1="106.68" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND32" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="154.94" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
@@ -5187,12 +5169,8 @@ Sensor 2 on A1</text>
 <wire x1="7.62" y1="157.48" x2="7.62" y2="177.8" width="0.1524" layer="91"/>
 <junction x="7.62" y="177.8"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="20.32" y1="177.8" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="177.8" x2="33.02" y2="177.8" width="0.1524" layer="91"/>
 <junction x="20.32" y="177.8"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="177.8" x2="33.02" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="175.26" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
-<junction x="27.94" y="177.8"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>

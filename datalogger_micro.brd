@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -162,7 +162,7 @@ Original Arduino Mini Design by Team Arduino
 Arduino Pro Mini Design by SparkFun Electronics
 Revised by Pete Lewis</text>
 <text x="5.334" y="41.91" size="1.016" layer="21" ratio="15" rot="R270">DataLogger Micro</text>
-<text x="35.814" y="42.037" size="0.8128" layer="21" ratio="15" rot="R270">(c) Mälicke, 2015</text>
+<text x="35.179" y="40.64" size="0.8128" layer="21" ratio="15" rot="R270">(c) Mälicke, 2015</text>
 <wire x1="19.558" y1="41.021" x2="19.558" y2="41.148" width="0.254" layer="21"/>
 <wire x1="19.558" y1="41.148" x2="12.192" y2="41.148" width="0.254" layer="21"/>
 <wire x1="12.192" y1="41.148" x2="12.192" y2="30.734" width="0.254" layer="21"/>
@@ -437,12 +437,6 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <smd name="+$2" x="12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
 <text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-9" y="0" curve="-90"/>
-<vertex x="0" y="9" curve="-90"/>
-<vertex x="9" y="0" curve="-90"/>
-<vertex x="0" y="-9" curve="-90"/>
-</polygon>
 </package>
 </packages>
 </library>
@@ -903,7 +897,7 @@ Covered vias can be set in Masks (Limit).
 </autorouter>
 <elements>
 <element name="R18" library="SparkFun" package="0603-RES" value="470" x="35.1481875" y="10.414" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.8466875" y="11.303" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="35.9736875" y="11.811" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="35.0211875" y="9.0805" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="LED1" library="Testing" package="0603-LED-ALT1" value="Red" x="35.1536" y="13.9954" smashed="yes">
@@ -970,10 +964,6 @@ Covered vias can be set in Masks (Limit).
 <element name="IC2" library="v-reg" package="SOT223" value="LD117AS33TR" x="27.051" y="37.338" smashed="yes">
 <attribute name="VALUE" x="24.511" y="36.0172" size="1.27" layer="27"/>
 </element>
-<element name="C6" library="SparkFun" package="0603-CAP" value="0.1uF" x="32.004" y="35.052" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.369" y="34.798" size="0.6096" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="33.147" y="34.036" size="0.4064" layer="27" font="vector" rot="R90"/>
-</element>
 <element name="ATMEGA328P" library="atmel" package="TQFP32-08" value="MEGA8-AI" x="15.113" y="19.431" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="73M8863" x="15.113" y="19.431" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ATMEGA8-16AU" x="15.113" y="19.431" size="1.778" layer="27" rot="R90" display="off"/>
@@ -983,7 +973,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="16.383" y="16.4084" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="SparkFun" package="0603-RES" value="10k" x="28.702" y="27.559" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.353" y="28.829" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="27.305" y="28.321" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.718" y="28.702" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="32.768KHZ" library="crystal" package="TC38H" value="" x="20.193" y="14.732" smashed="yes" rot="R46">
@@ -1026,11 +1016,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="33.655" y="5.207" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C1" library="SparkFun" package="0603-CAP" value="0.1uF" x="8.636" y="37.084" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.128" y="38.989" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="9.398" y="39.243" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="7.493" y="38.1" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C5" library="SparkFun" package="0603-CAP" value="0.1uF" x="19.304" y="27.305" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.939" y="27.686" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="19.177" y="28.956" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="18.161" y="28.321" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C3" library="SparkFun" package="0603-CAP" value="0.1uF" x="14.986" y="27.305" smashed="yes" rot="R270">
@@ -1046,18 +1036,18 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="30.353" y="5.207" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R8" library="SparkFun" package="0603-RES" value="VAR" x="17.907" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.145" y="26.416" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="18.542" y="29.591" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="19.05" y="26.289" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R9" library="SparkFun" package="0603-RES" value="VAR" x="16.383" y="27.305" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.875" y="28.829" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="16.002" y="28.956" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="15.24" y="28.321" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="U$100" library="adafruit" package="CR2032-SMD" value="LIR2032" x="20.955" y="34.29" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="25.273" y="21.94" size="1.6764" layer="28" font="vector" rot="MR0"/>
 </element>
 <element name="R10" library="SparkFun" package="0603-RES" value="10k" x="22.606" y="34.925" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.844" y="34.036" size="0.254" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="23.495" y="37.592" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="23.749" y="33.909" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C7" library="SparkFun" package="1206" value="10uF" x="25.146" y="31.115" smashed="yes" rot="R180">
@@ -1075,7 +1065,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="34.388" y="29.615" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="R19" library="SparkFun" package="0603-RES" value="1k" x="28.702" y="26.035" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.416" y="26.924" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="26.416" y="26.797" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="29.718" y="27.178" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 </elements>
@@ -1097,7 +1087,6 @@ Covered vias can be set in Masks (Limit).
 <contactref element="U$2" pad="P$2"/>
 <contactref element="U$1" pad="P$1"/>
 <contactref element="R17" pad="2"/>
-<contactref element="C6" pad="2"/>
 <contactref element="ATMEGA328P" pad="3"/>
 <contactref element="ATMEGA328P" pad="21"/>
 <contactref element="ATMEGA328P" pad="5"/>
@@ -1129,8 +1118,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="15.494" y1="15.1574" x2="15.513" y2="15.1384" width="0.254" layer="1"/>
 <via x="24.257" y="16.002" extent="1-16" drill="0.5" diameter="0.254"/>
 <via x="23.622" y="28.321" extent="1-16" drill="0.9" diameter="0.254"/>
-<via x="8.763" y="39.37" extent="1-16" drill="0.5" diameter="0.254"/>
-<wire x1="15.513" y1="14.37" x2="15.513" y2="15.1384" width="0.254" layer="1"/>
+<via x="8.763" y="40.132" extent="1-16" drill="0.5" diameter="0.254"/>
 <via x="11.938" y="12.065" extent="1-16" drill="0.5" diameter="0.254"/>
 <via x="19.177" y="7.493" extent="1-16" drill="0.5" diameter="0.254"/>
 <via x="9.017" y="8.89" extent="1-16" drill="0.5" diameter="0.254"/>
@@ -1581,9 +1569,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="17.113" y1="25.114" x2="18.454" y2="26.455" width="0.4064" layer="1"/>
 <wire x1="18.454" y1="26.455" x2="19.304" y2="26.455" width="0.4064" layer="1"/>
 <wire x1="8.6732" y1="30.861" x2="7.239" y2="30.861" width="0.4064" layer="1"/>
-<contactref element="C6" pad="1"/>
-<wire x1="31.988" y1="32.065" x2="31.988" y2="34.186" width="0.254" layer="1"/>
-<wire x1="31.988" y1="34.186" x2="32.004" y2="34.202" width="0.254" layer="1"/>
 <wire x1="31.988" y1="32.065" x2="33.208" y2="32.065" width="0.254" layer="1"/>
 <wire x1="33.208" y1="32.065" x2="33.909" y2="32.766" width="0.254" layer="1"/>
 <wire x1="33.909" y1="32.766" x2="33.909" y2="34.29" width="0.254" layer="1"/>
